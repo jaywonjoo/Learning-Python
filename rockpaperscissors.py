@@ -28,10 +28,10 @@ import random
 computerchoices = ["rock","paper","scissors"]
 randomcomputerchoice = random.choice(computerchoices)
 
+#computer vs user to decide winner
 if userchoicelower not in computerchoices:
     print("Sorry, invalid choice! Please reenter your choice!")
 else:
-    #computer vs user to decide winner
     if userchoicelower == randomcomputerchoice:
         print(f"you tie! the computer chose {randomcomputerchoice}")
     elif (
