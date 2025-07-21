@@ -6,10 +6,19 @@ x = int(val1)
 y = int(val2)
 operation = val3
 
-if val3 == "+" or val3 == "addition":
+if val3 == "+" or val3 == "add":
     result = x + y
     print(f"the result is: {result}")
+if val3 == "-" or val3 == "subtract":
+    result = x - y
+    print(f"the result is: {result}")
+if val3 == "*" or val3 == "multiply":
+    result = x * y
+    print(f"the result is: {result}")
+if val3 == "/" or val3 == "divide":
+    result = x / y
+    print(f"the result is: {result}")
 else:
-    print("Sorry, I don't know how to do anything but add :(")
+    print("Sorry, I don't know how to do anything :(")
 
 # Need to add other operations
