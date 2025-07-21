@@ -9,13 +9,13 @@ operation = val3
 if val3 == "+" or val3 == "add":
     result = x + y
     print(f"the result is: {result}")
-if val3 == "-" or val3 == "subtract":
+elif val3 == "-" or val3 == "subtract":
     result = x - y
     print(f"the result is: {result}")
-if val3 == "*" or val3 == "multiply":
+elif val3 == "*" or val3 == "multiply":
     result = x * y
     print(f"the result is: {result}")
-if val3 == "/" or val3 == "divide":
+elif val3 == "/" or val3 == "divide":
     result = x / y
     print(f"the result is: {result}")
 else:
